@@ -1,0 +1,6 @@
+framework module Pods_recruit_LFS_20170301 {
+  umbrella header "Pods-recruit_LFS_20170301-umbrella.h"
+
+  export *
+  module * { export * }
+}
