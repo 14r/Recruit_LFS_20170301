@@ -13,4 +13,5 @@ import RealmSwift
 class Company: Object {
     dynamic var id: String!
     dynamic var name: String!
+    dynamic var schedule: String!
 }

@@ -19,6 +19,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     var saveData: UserDefaults = UserDefaults.standard
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        company.reloadData()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +56,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return companies.count
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("selected", indexPath.row)
+        self.performSegue(withIdentifier: "showdetail", sender: nil)
+    }
 
 }
 

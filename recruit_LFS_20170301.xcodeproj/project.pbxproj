@@ -17,6 +17,7 @@
 		0BF650731E665F4C005D6DED /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF650721E665F4C005D6DED /* EntryViewController.swift */; };
 		0BF6507B1E66A979005D6DED /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6507A1E66A979005D6DED /* CompanyTableViewCell.swift */; };
 		0BF6507D1E66BA81005D6DED /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6507C1E66BA81005D6DED /* Company.swift */; };
+		0BF6507F1E6DB55C005D6DED /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF6507E1E6DB55C005D6DED /* ScheduleViewController.swift */; };
 		375D82A000B217A8D0A71186 /* Pods_recruit_LFS_20170301.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFAAE6E4577B59B05BF3814 /* Pods_recruit_LFS_20170301.framework */; };
 		6235EFF1C752DA32248AFC19 /* Pods_recruit_LFS_20170301Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8684AE7933ED3254CBDD779C /* Pods_recruit_LFS_20170301Tests.framework */; };
 		B4CBAB2CF1C460F991E57AA7 /* Pods_recruit_LFS_20170301UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875C22C4445B7D4D0FA06587 /* Pods_recruit_LFS_20170301UITests.framework */; };
@@ -56,6 +57,7 @@
 		0BF650721E665F4C005D6DED /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 		0BF6507A1E66A979005D6DED /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
 		0BF6507C1E66BA81005D6DED /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		0BF6507E1E6DB55C005D6DED /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		10E28A14D3432CDF57C84543 /* Pods-recruit_LFS_20170301.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruit_LFS_20170301.debug.xcconfig"; path = "Pods/Target Support Files/Pods-recruit_LFS_20170301/Pods-recruit_LFS_20170301.debug.xcconfig"; sourceTree = "<group>"; };
 		15A5C029D5B17D64B092D5CF /* Pods-recruit_LFS_20170301.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruit_LFS_20170301.release.xcconfig"; path = "Pods/Target Support Files/Pods-recruit_LFS_20170301/Pods-recruit_LFS_20170301.release.xcconfig"; sourceTree = "<group>"; };
 		7DCDEBB38BA79DD63154C2E2 /* Pods-recruit_LFS_20170301Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-recruit_LFS_20170301Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-recruit_LFS_20170301Tests/Pods-recruit_LFS_20170301Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				0BF650721E665F4C005D6DED /* EntryViewController.swift */,
 				0BF6507A1E66A979005D6DED /* CompanyTableViewCell.swift */,
 				0BF6507C1E66BA81005D6DED /* Company.swift */,
+				0BF6507E1E6DB55C005D6DED /* ScheduleViewController.swift */,
 			);
 			path = recruit_LFS_20170301;
 			sourceTree = "<group>";
@@ -458,6 +461,7 @@
 				0BF650471E665D80005D6DED /* ViewController.swift in Sources */,
 				0BF650451E665D80005D6DED /* AppDelegate.swift in Sources */,
 				0BF650731E665F4C005D6DED /* EntryViewController.swift in Sources */,
+				0BF6507F1E6DB55C005D6DED /* ScheduleViewController.swift in Sources */,
 				0BF6507D1E66BA81005D6DED /* Company.swift in Sources */,
 				0BF6507B1E66A979005D6DED /* CompanyTableViewCell.swift in Sources */,
 			);
@@ -708,6 +712,7 @@
 				0BF6506B1E665D80005D6DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BF6506C1E665D80005D6DED /* Build configuration list for PBXNativeTarget "recruit_LFS_20170301Tests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +721,7 @@
 				0BF6506E1E665D80005D6DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BF6506F1E665D80005D6DED /* Build configuration list for PBXNativeTarget "recruit_LFS_20170301UITests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +730,7 @@
 				0BF650711E665D80005D6DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
