@@ -34,12 +34,12 @@ class EntryViewController: UIViewController, UITextFieldDelegate, UIPickerViewDe
         
     }
     
-    @IBAction func save (_ pickerRow:Int) {
+    @IBAction func save () {
         
         let company = Company()
         company.id = IDTextField.text
         company.name = companyTextField.text
-        company.schedule = (scheduleArray[pickerRow] as AnyObject).text
+        company.schedule = (scheduleArray[pickedRow] as AnyObject).text
 
         
         let realm = try! Realm()
@@ -88,8 +88,9 @@ class EntryViewController: UIViewController, UITextFieldDelegate, UIPickerViewDe
     }
 
     func pickerView(_ pickerView:UIPickerView,didSelectRow row:Int,inComponent component:Int){
-        var saveData2: UserDefaults = UserDefaults.standard
         
+        var savedata2: UserDefaults = UserDefaults.standard
+        pickedRow = row
     }
     
     
